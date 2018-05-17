@@ -15,3 +15,6 @@ for i in range(0, len(number)):
 newNumber = int(cleanedNumber)
 
 print("The number is {} ".format(newNumber))
+
+for i in range(0,10):
+    print(i)
