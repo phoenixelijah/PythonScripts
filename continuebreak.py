@@ -5,7 +5,7 @@
 #
 #     print("Buy " + item)
 
-meal = ["egg", "bacon", "sparm", "beans", "sausages", "spams"]
+meal = ["egg", "bacon", "spam", "beans", "sausages", "spams"]
 nasty_food_item = ''
 
 for item in meal:
@@ -18,3 +18,12 @@ else:
 
 if nasty_food_item:
     print("Can't I have anything without spam in it")
+
+
+
+
+# Modify this loop to stop when i is exactly divisible by 11
+for i in range(0, 20):
+    if (i > 0) and ((i%3 == 0) or (i%5 == 0)):
+        continue
+    print(i)
