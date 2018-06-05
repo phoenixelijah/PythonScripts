@@ -30,18 +30,30 @@
 # my_range = small_decimals[::2]
 # print(my_range)
 # print(my_range.index(4))
-decimals = range(0, 100)
-print(decimals)
+# decimals = range(0, 100)
+# print(decimals)
+#
+# my_range = decimals[3:40:3]
+# print(my_range)
+#
+# for i in my_range:
+#     print(i)
+#
+# print('=' * 40)
+#
+# for i in range(3, 40, 3):
+#     print(i)
+#
+# print(my_range == range(3, 40, 3))
+#
+# backstring = "egaugnal lufrewop yrev a si nohtyP"
+# print(backstring[::-1])
 
-my_range = decimals[3:40:3]
-print(my_range)
+# for i in range(0, 10, -1):
+#     print(i)
+# r = range(0, 10)
+# for i in r[::-1]:
+#     print(i)
+#
 
-for i in my_range:
-    print(i)
 
-print('=' * 40)
-
-for i in range(3, 40, 3):
-    print(i)
-
-print(my_range == range(3, 40, 3))
